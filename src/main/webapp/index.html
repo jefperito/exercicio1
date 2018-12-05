@@ -1,0 +1,20 @@
+<html>
+<body>
+<form action="http://localhost:8080/sienge/api/transportadora/calcularTransporte" method="POST"
+      enctype="application/x-www-form-urlencoded">
+    <select name="nomeVeiculo">
+        <option value="CAMINHAO_BAU">Caminhão Baú</option>
+        <option value="CAMINHAO_CACAMBA">Caminhão Caçamba</option>
+        <option value="CARRETA">Carreta</option>
+    </select>Nome do veículo
+    <br/>
+    <input type="text" name="toneladasCarga"/> Toneladas da carga
+    <br/>
+    <input type="text" name="distanciaPavimentada"/> Distância pavimentada
+    <br/>
+    <input type="text" name="distanciaNaoPavimentada"/> Distância não pavimentada
+    <br/>
+    <input type="submit" name="submit" value="submit"/>
+</form>
+</body>
+</html>
